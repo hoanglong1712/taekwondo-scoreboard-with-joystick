@@ -1,5 +1,6 @@
 # taekwondo-scoreboard-with-joystick
 the code is done in scoreborad.py
+youtube: https://www.youtube.com/watch?v=7oMCPwEzaTw&list=PLIpLw6v7Z1qm1-K5cxvGXW9QrYqW0Poz_
 
 it works on ps4 joystick, python 3.9
 
