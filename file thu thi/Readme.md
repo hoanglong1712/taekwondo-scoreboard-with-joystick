@@ -1,7 +1,7 @@
 
 lấy 3 file zip xuống và giải  bằng phần mềm 7zip
 
-cắm từ 2 đến 3 tay cầm chơi game vào cổng usb máy tính chạy Windows
+cắm từ 2 đến 3 tay cầm chơi game vào cổng usb máy tính chạy Windows,
 có thể cắm nhiều hơn
 
 đỏ bên phải, xanh bên trái, 
