@@ -1,4 +1,6 @@
 
+video mô tả: https://www.youtube.com/watch?v=G7_cHIzqbiI
+
 Hướng dẫn:
 
 tải cả 3 tập tin nén, sau đó sử dụng 7zip để giải nén chúng sẽ thu được 1 tập tin thực thi, cần sử dụng windows để chạy phần mềm 
