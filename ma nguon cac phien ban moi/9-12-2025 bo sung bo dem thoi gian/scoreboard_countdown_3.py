@@ -813,16 +813,17 @@ def running():
                                red_signal_arr, blue_signal_arr, run,
                                button_array)
 
-        # reference cannot update score after the horn has been blown
-        # or when the round is paused
-        if not sound_played_for_end and round_paused == False:
-            # update score
-            red_score += red_extra + blue_pen
-            blue_score += blue_extra + red_pen
-            # update penalty
-            pen_scores[-1][RED_INDEX] += red_pen
-            pen_scores[-1][BLUE_INDEX] += blue_pen
-            pass
+        # update score
+        red_score += red_extra
+        blue_score += blue_extra
+
+        # update penalty can be done while pausing or at the end of the round
+        pen_scores[-1][RED_INDEX] += red_pen
+        pen_scores[-1][BLUE_INDEX] += blue_pen
+
+        red_score += blue_pen
+        blue_score += red_pen
+
 
         current_time = pygame.time.get_ticks()
         # convert from milliseconds to one tenth of seconds
@@ -908,8 +909,12 @@ def running():
             # 1 seconds is better than 2 seconds in case of HUBT team
             IDLED_TIME = 10
             if elapsed_time >= IDLED_TIME:  # 20:
-                red_score, blue_score = update_score(
-                    red_signal_arr, blue_signal_arr, red_score, blue_score)
+                # reference cannot update score after the horn has been blown
+                # or when the round is paused
+                if not sound_played_for_end and round_paused == False:
+                    red_score, blue_score = update_score(
+                        red_signal_arr, blue_signal_arr, red_score, blue_score)
+                    pass
                 red_signal_arr, blue_signal_arr = reset_signal_arr(joysticks)
                 start_time = current_time
                 pass
