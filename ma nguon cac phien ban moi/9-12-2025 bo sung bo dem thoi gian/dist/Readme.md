@@ -1,5 +1,6 @@
 
 Hướng dẫn:
+Video giải thích https://www.youtube.com/watch?v=9RaDNaLO5l8
 
 tải cả 3 tập tin nén, sau đó sử dụng 7zip để giải nén chúng sẽ thu được 1 tập tin thực thi, cần sử dụng windows để chạy phần mềm
 
