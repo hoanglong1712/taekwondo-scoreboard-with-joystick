@@ -12,9 +12,9 @@ youtube : https://www.youtube.com/watch?v=u8W1rEDRtcc
     - Phần điều khiển bên phải 
         dùng để tính điểm cho vận động viên 
     - Phầm mềm có 4 mức điểm cơ sở
-        Nút bấm trên cùng: trừ 0.1 điểm cho mỗi lỗi kỹ thuật nhỏ
-        Nút bấm bên phải: trừ 0.3 điểm cho mỗi lỗi kỹ thuật lớn
-        Nút bấm dưới cùng: trừ 0.2 điểm cho mỗi lỗi trình diễn        
+            - Nút bấm trên cùng: trừ 0.1 điểm cho mỗi lỗi kỹ thuật nhỏ
+            - Nút bấm bên phải: trừ 0.3 điểm cho mỗi lỗi kỹ thuật lớn
+            - Nút bấm dưới cùng: trừ 0.2 điểm cho mỗi lỗi trình diễn        
     - Nhấn nút Reset để bắt đầu chấm điểm
     - Những điểm bị đổi màu là những điểm không được tính vào tổng điểm cuối cùng
     - Nếu có dưới 2 trọng tài thì không áp dụng cơ chế đổi màu và 
