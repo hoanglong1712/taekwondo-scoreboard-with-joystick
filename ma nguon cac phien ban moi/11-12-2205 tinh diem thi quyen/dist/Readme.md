@@ -14,7 +14,7 @@ youtube : https://www.youtube.com/watch?v=u8W1rEDRtcc
         tùy thuộc vào sức mạnh của máy tính trung tâm
     - Phần điều khiển bên phải 
         dùng để tính điểm cho vận động viên 
-    - Phầm mềm có 4 mức điểm cơ sở
+    - Phầm mềm có 3 vị trí bấm điểm
     - Nút bấm trên cùng: trừ 0.1 điểm cho mỗi lỗi kỹ thuật nhỏ
     - Nút bấm bên phải: trừ 0.3 điểm cho mỗi lỗi kỹ thuật lớn
     - Nút bấm dưới cùng: trừ 0.2 điểm cho mỗi lỗi trình diễn        
