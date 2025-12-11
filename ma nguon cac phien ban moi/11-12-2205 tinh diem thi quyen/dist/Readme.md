@@ -7,7 +7,7 @@ youtube : https://www.youtube.com/watch?v=u8W1rEDRtcc
 
 - Phần mềm tương thích với các loại tay cầm chơi game 
         như PS2, PS3 và PS4 cũng như Xbox
-  
+    - Tương thích với quy định chấm điểm thi quyền của Kukkiwon - WTF
     - Điểm được tính độc lập      
     - Số lượng tay cầm tính điểm không hạn chế, 
         tối thiểu là 1 tay cầm và tối đa có thể lên đến 8 tay cầm,
