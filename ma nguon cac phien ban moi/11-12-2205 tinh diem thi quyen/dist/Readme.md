@@ -1,5 +1,8 @@
 
 Hướng dẫn sử dụng:
+
+tải cả 3 tập tin nén, sau đó sử dụng 7zip để giải nén chúng sẽ thu được 1 tập tin thực thi, cần sử dụng windows để chạy phần mềm
+
 youtube : https://www.youtube.com/watch?v=u8W1rEDRtcc
 
 - Phần mềm tương thích với các loại tay cầm chơi game 
