@@ -207,7 +207,9 @@ def get_ref_score(scores: {}):
         i += 1
         pass
 
-    return ref_scores, acc_sum / acc_num, pre_sum / pre_num
+    return (ref_scores,
+            acc_sum / acc_num if acc_num > 0 else 0,
+            pre_sum / pre_num if pre_num > 0 else 0)
 
 def draw_acc_avg(screen, font, text, color, next_ref_id):
     SCREEN_WIDTH, SCREEN_HEIGHT = screen.get_size()
